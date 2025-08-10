@@ -1,4 +1,4 @@
-🌍 Travel Agency Platform
+# 🌍 Travel Agency Platform
 
 <div align="center">
   <img alt="React" src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white" />
@@ -9,26 +9,8 @@
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 </div>
 
-## Screenshots
 
-<div align="center">
-  <img src="public/readme/hero.png" alt="Project Banner" width="700" />
-</div>
-
-### Public Site
-
-<div align="center">
-  <img src="public/readme/public-site.png" alt="Public Booking Site" width="700" />
-</div>
-
-### Admin Dashboard
-
-<div align="center">
-  <img src="public/readme/admin-dashboard.png" alt="Admin Dashboard Overview" width="700" />
-</div>
-
-
-📢 🤖 Introduction
+## 📢 🤖 Introduction
 Welcome to the Travel Agency Platform, a cutting-edge web application designed to revolutionize how travelers plan and book their trips! ✈️✨
 
 AI-powered trip itinerary generator crafts personalized travel plans tailored to your unique preferences including:
@@ -51,7 +33,7 @@ Admin dashboard for robust user management, trip oversight, and real-time analyt
 
 Join a vibrant community 🌟 enjoying a smooth, responsive, and secure travel planning experience!
 
-🛠️ ⚙️ Tech Stack
+## 🛠️ ⚙️ Tech Stack
 This project is built with a modern power combo to ensure performance, scalability, and stunning UI:
 
 React 19 — Dynamic, component-based UI for a smooth user experience ⚛️
@@ -70,19 +52,19 @@ AI Integration — Powers the personalized itinerary generation 🤖
 
 This tech stack ensures a scalable, maintainable, and easy-to-upgrade platform ready for future enhancements.
 
-🚀 🔋 Features
+## 🚀 🔋 Features
 Explore the wide range of features designed to make travel planning effortless and enjoyable:
 
-✨ AI-Powered Itinerary Generation
+ ✨ AI-Powered Itinerary Generation
 Personalize your trip itineraries dynamically, based on your budget, interests, travel style, and group.
 
-🛒 Public Trip Booking Site
+ 🛒 Public Trip Booking Site
 Browse recommended trips, review detailed itineraries, and book with ease.
 
-🛠️ Admin Dashboard
+ 🛠️ Admin Dashboard
 Efficiently manage trips and users with comprehensive overviews and controls.
 
-📊 User Growth and Trip Analytics
+ 📊 User Growth and Trip Analytics
 Real-time charts and metrics provide insight into platform usage and trends.
 
 📱 Responsive & Modern UI
@@ -101,7 +83,7 @@ Includes best times to visit, weather info, local activities, and geo-location d
 Includes support for image sourcing, payment gateways, and more for extensibility.
 
 
-🤸 Quick Start
+## 🤸 Quick Start
 Follow these steps to set up and run the Travel Agency Platform on your local machine:
 
 Prerequisites
@@ -114,16 +96,19 @@ Node.js
 npm
 
 Clone the Repository
-bash
+```bash
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
+```
 Install Dependencies
-bash
+```bash
 npm install
+```
 Setup Environment Variables
 Create a .env file in the root directory and add your credentials:
 
 text
+```bash
 VITE_SYNCFUSION_LICENSE_KEY=your_license_key
 VITE_APPWRITE_PROJECT_ID=your_project_id
 VITE_APPWRITE_API_ENDPOINT=your_api_endpoint
@@ -135,11 +120,13 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 GEMINI_API_KEY=your_gemini_api_key
 UNSPLASH_ACCESS_KEY=your_unsplash_access_key
 VITE_BASE_URL=http://localhost:5173
+```
 Replace placeholder values with your actual keys.
 
 Run the Project
-bash
+```bash
 npm run dev
+```
 Open http://localhost:5173 in your browser to explore!
 
 🕸️ Code Snippets
@@ -182,7 +169,7 @@ export const formatDate = (dateString: string): string => {
 };
 Feel free to explore more snippets in the project files for components and utilities.
 
-🤝 Contribution Guidelines
+## 🤝 Contribution Guidelines
 We welcome contributions to improve the Travel Agency Platform! Here's how you can help:
 
 Fork the Repository
@@ -190,14 +177,20 @@ Create a personal copy of the repo on your GitHub account.
 
 Create a Feature Branch
 Use descriptive branch names for your feature/fix:
+```bash
 git checkout -b feature/your-feature-name
+```
 
 Commit Your Changes
 Use clear, concise commit messages:
+```bash
 git commit -m "Add feature description"
+```
 
 Push to Your Branch
+```bash
 git push origin feature/your-feature-name
+```
 
 Open a Pull Request
 Describe your changes and link related issues.
