@@ -18,14 +18,6 @@ const StatsCard = ({
         {headerTitle}
       </h3>
 
-      {/* <div className='content'>
-        <div className='flex flex-col gap-4'>
-          <h2 className='text-4xl font-semibold'>
-            {total}
-          </h2>
-        </div>
-      </div> */}
-
       <div className='content'>
         <div className='flex flex-col gap-4'>
           <h2 className='text-4xl font-semibold'>{total}</h2>
